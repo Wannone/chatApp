@@ -1,0 +1,31 @@
+name: chatapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  firebase: 9.0.3
+  firebase_core: ^2.24.0
+  google_sign_in: 6.1.6
+  get: ^4.6.6
+  firebase_auth: 4.15.0
+  introduction_screen: 3.1.12
+  avatar_glow: 2.0.2
+  emoji_picker_flutter: 1.6.3
+  get_storage: 2.1.1
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+  uses-material-design: true
+
